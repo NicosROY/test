@@ -1,822 +1,504 @@
-# DOSSIER DE PRÉSENTATION DU PROJET — DISCRAVE
-## Initiative Pays d'Aix — Structure calquée sur dossier n° 202112-031 (SmatchCard — accord obtenu)
+DOSSIER DE PRÉSENTATION DU PROJET
 
-> **Porteur :** Nicolas ROY — **Statut :** v5 — dossier prêt pour dépôt IPA  
-> **Siège social SASU :** 9 rue des Isnard, 13770 Venelles (Pays d'Aix)  
-> **Prochaine étape :** contacter IPA Pays d'Aix — 04 42 64 63 70
+Numéro de dossier :
+Créateur : Nicolas ROY
+Nom de l'entreprise : DISCRAVE
+Activité : Plateforme digitale d'agrégation et de découverte événementielle — centralisation de l'offre culturelle, festive et de loisirs (live, night, art, expérience, culture)
+Type de projet : Création (passage micro-entreprise → SASU)
+Chargé d'affaires :
+Orienté par :
+Date premier contact :
+Date comité technique :
+Date comité d'agrément :
+Franchise ? Non
+Prêt d'honneur ? Oui
+NACRE ? Non
+Aide initiative remarquable ? Non
+Projet Innovant ? Oui
 
----
-
-# PAGE 1 / 11 — DOSSIER DE PRÉSENTATION DU PROJET
-
-| Champ | Valeur |
-|-------|--------|
-| **Numéro de dossier** | [À COMPLÉTER — attribué par IPA] |
-| **Créateur** | Nicolas ROY (ROY Nicolas Claude Laurent) |
-| **Nom de l'entreprise** | DISCRAVE |
-| **Activité** | Plateforme digitale d'agrégation et de découverte événementielle — infrastructure de centralisation de l'offre culturelle, festive et de loisirs (live, night, art, expérience, culture) |
-| **Type de projet** | Création (passage micro-entreprise → SASU) |
-| **Chargé d'affaires** | [À COMPLÉTER — attribué par IPA] |
-| **Orienté par** | [À COMPLÉTER] |
-| **Date premier contact** | Prévu — contact IPA dans la semaine |
-| **Date comité technique** | |
-| **Date comité d'agrément** | |
-| **Franchise ?** | Non |
-| **Prêt d'honneur ?** | Oui |
-| **NACRE ?** | Non |
-| **Aide initiative remarquable ?** | Non |
-| **Projet Innovant ?** | Oui — infrastructure de données événementielles, agrégation multi-sources, produit en production, écosystème en 3 phases (web → mobile → ticketing) |
+Page 1 / 11
 
 ---
 
-# PAGE 2 / 11 — AVIS DU COMITÉ TECHNIQUE
+AVIS DU COMITE TECHNIQUE
 
-```
-PAS DE COMITÉ TECHNIQUE
-```
+PAS DE COMITE TECHNIQUE
 
----
-
-# PAGE 3 / 11 — PRÉSENTATION DU CRÉATEUR
-
-| Champ | Valeur |
-|-------|--------|
-| **Nom** | ROY |
-| **Prénom** | Nicolas |
-| **Nationalité** | française |
-| **Date de naissance** | 18/05/1994 |
-| **Lieu de naissance** | Blois (41) |
-| **Adresse** | 3 B allée Francis Picabia |
-| **Code postal** | 13500 |
-| **Ville** | Martigues |
-| **Tél.** | |
-| **Portable** | +33 7 68 48 65 46 |
-| **Email** | nicolas@discrave.com / nicolas.royn@gmail.com |
-| **N° fiscal** | 30 25 01 75 792 90 |
-
-### SITUATION FAMILIALE
-
-| Champ | Valeur |
-|-------|--------|
-| Situation familiale | Célibataire |
-| Nombre de personnes à charge | 0 |
-| Situation professionnelle du conjoint | — |
-| Revenu mensuel du conjoint | 0 € |
-| Revenu mensuel personnel | ~885 € *(RFR 2025 : 10 623 € / 12)* |
-| Autres revenus | 0 € |
-| Revenu mensuel du ménage | ~885 € |
-
-### ENDETTEMENT PERSONNEL
-
-| Type | Montant |
-|------|---------|
-| Crédit immobilier | 0 € |
-| Crédit à la consommation | 0 € |
-| Autres crédits | 0 € |
-
-### SITUATION IMMOBILIÈRE
-
-| Champ | Valeur |
-|-------|--------|
-| Situation immobilière | Logé à titre gratuit |
-| Montant du loyer | 0 € |
-
-### SITUATION PROFESSIONNELLE
-
-| Champ | Valeur |
-|-------|--------|
-| Situation professionnelle | Micro-entrepreneur (ROY CONSULTING) — passage en SASU DISCRAVE prévu |
-| Activité actuelle | Programmation informatique (6201Z) — développement et exploitation de discrave.com |
-| Raison sociale micro | ROY CONSULTING |
-| Date de début micro-entreprise | Avril 2023 *(établissement au 12/11/2025)* |
-| SIRET micro-entreprise | 843 072 901 00039 |
-| Siège micro actuel | 3 B allée Francis Picabia, 13500 Martigues |
-
-### DIPLÔMES / FORMATIONS
-
-| Année | Intitulé | Niveau |
-|-------|----------|--------|
-| 2024 | Product Management Bootcamp | NOÉ |
-| 2024 | Conduire et piloter un projet innovant (méthodes agiles) | ORIIONS |
-| 2012 – 2015 | [Licence / Master — À préciser] | Aix-Marseille Université |
-
-| Question | Réponse |
-|----------|---------|
-| Avez-vous suivi une formation à la création d'entreprise ? | Non *(formations produit & agile)* |
-| Si oui, dans quel organisme ? | — |
-
-### EXPÉRIENCES PROFESSIONNELLES
-
-| Début | Fin | Fonction | Entreprise |
-|-------|-----|----------|------------|
-| [Date SASU] | en cours | Fondateur & Président — Discrave (produit, tech, stratégie) | DISCRAVE SASU *(en création)* |
-| 04/2023 | en cours | Freelance Product / Web Project Manager — dont discrave.com | ROY CONSULTING (micro) |
-| 10/2017 | 01/2023 | Product Manager / Product Marketing Manager | ATAYEN, Inc. (blockchain — SaTT token, levée 7 M$) |
-
-**Profil :** Product Manager / Product Owner, 6+ ans d'expérience produits digitaux (SaaS, web, blockchain). Compétences : discovery, delivery agile, roadmap, backlog, UX, SEO, coordination technique. Langues : français (natif), anglais B2.
+Page 2 / 11
 
 ---
 
-# PAGE 4 / 11 — PRÉSENTATION DU CRÉATEUR (associé)
+PRÉSENTATION DU CRÉATEUR
 
-```
-NON APPLICABLE — SASU mono-associé (Nicolas ROY, 100 %)
-```
+Nom : ROY
+Prénom : Nicolas
+Nationalité : française
+Date de naissance : 18/05/1994
+Lieu de naissance : Blois (41)
+Adresse : 3 B allée Francis Picabia
+Code postal : 13500
+Ville : Martigues
+Tél. :
+Portable : +33 7 68 48 65 46
+Fax :
+Email : nicolas@discrave.com
 
----
+SITUATION FAMILIALE
 
-# PAGE 5 / 11 — PRÉSENTATION DE L'ENTREPRISE
+Situation familiale : Célibataire
+Nombre de personnes à charge : 0
+Situation professionnelle du conjoint :
+Revenu mensuel du conjoint : 0 €
+Revenu mensuel personnel : 885 €
+Autres revenus : 0 €
+Revenu mensuel du ménage : 885 €
 
-| Champ | Valeur |
-|-------|--------|
-| **Date de création / reprise / croissance** | SASU en cours de création — activité exercée en micro-entreprise |
-| **Contexte** | Passage en SASU pour structurer, financer la phase d'accélération commerciale et déployer Discrave Club & Discrave Office à l'échelle nationale |
+ENDETTEMENT PERSONNEL
 
-### Produits / services proposés
+Crédit immobilier : 0 €
+Crédit à la consommation : 0 €
+Autres crédits : 0 €
 
-**Mission :** Construire l'**infrastructure mondiale de la découverte événementielle** — le « Google Maps de l'événementiel » — *« Notre ambition n'est pas seulement d'aider les gens à trouver un événement. Notre ambition est de les aider à vivre davantage. »*
+SITUATION IMMOBILIÈRE
 
-**Genèse du projet :** Né d'une expérience vécue — une soirée, envie de sortir, et 30 minutes perdues à chercher entre Google, Instagram, Facebook et les billetteries. *« Les gens ne s'ennuient pas parce qu'il ne se passe rien. Ils s'ennuient parce qu'ils ne savent pas ce qu'il se passe. »*
+Situation immobilière : Logé à titre gratuit
+Montant du loyer : 0 €
 
-**Problème adressé — le paradoxe de la découverte :** L'industrie événementielle n'a jamais été aussi dynamique (millions d'événements/an), mais la découverte n'a jamais été aussi complexe. Chaque plateforme détient une partie de l'information ; aucune ne possède la vision d'ensemble. Résultat : fatigue décisionnelle, abandon de recherche, organisateurs locaux invisibles malgré une programmation active.
+SITUATION PROFESSIONNELLE
 
-**Solution Discrave :** Plateforme qui agrège, normalise et centralise les événements culturels, festifs et de loisirs au sein d'une interface unique (LIVE, NIGHT, ART, EXPERIENCE, CULTURE).
+Situation professionnelle : Micro-entrepreneur — passage en SASU prévu
+Date d'inscription à Pôle Emploi :
+Raison d'inscription à Pôle Emploi :
 
-**État actuel — produit en production :**
-- **90 000+** événements référencés
-- **100+** villes couvertes — couverture nationale
-- **discrave.com** opérationnel et commercialisable
-- Intégrations : Ticketmaster (affilié), Fever (affilié), Shotgun, DICE
-- **Discrave Studio** — interface organisateurs
-- **Discrave Club** — offre B2B lieux & organisateurs
-- **Discrave Office** — offre B2B collectivités & offices de tourisme
+Activité exercée en micro-entreprise sous la raison sociale ROY CONSULTING (SIRET 843 072 901 00039), code APE 6201Z — programmation informatique. Développement et exploitation de la plateforme discrave.com depuis avril 2023.
 
-**Offres commerciales :**
+DIPLÔMES / FORMATIONS
 
-| Offre | Cible | Tarif |
-|-------|-------|-------|
-| **Discrave Club** | Clubs, salles, bars, festivals, théâtres, organisateurs | 99 €/mois HT |
-| **Discrave Office** | Offices de tourisme, villes, métropoles, collectivités | 249 à 999 €/mois HT |
-| **Affiliation billetterie** | Monétisation du trafic | Commissions sur ventes partenaires |
-| **Accès B2C** | Grand public | Gratuit |
+Année          Intitulé                                                          Niveau
+2024           Product Management Bootcamp                                       NOÉ
+2024           Conduire et piloter un projet innovant avec des méthodes agiles   ORIIONS
+2012 – 2015    Licence — Aix-Marseille Université                              III
 
-**Écosystème Discrave — une infrastructure, trois interfaces :**
+Avez-vous suivi une formation à la création d'entreprise ? Non
+Si oui, dans quel organisme ?
 
-```
-                    DISCRAVE (infrastructure données)
-                    API · Normalisation · Catégorisation · Géoloc
-                              │
-          ┌───────────────────┼───────────────────┐
-          ▼                   ▼                   ▼
-   DISCRAVE.COM        DISCRAVE APP       DISCRAVE TICKETING
-   Découvrir           Personnaliser       Réserver
-   (2026 — EN COURS)   (2027-2028)         (2029+)
-```
+EXPÉRIENCES PROFESSIONNELLES
 
-| Produit | Mission | Statut |
-|---------|---------|--------|
-| **Discrave.com** | Centraliser et rendre visible l'offre événementielle | **En production** — socle de l'écosystème |
-| **Discrave Studio** | Espace de gestion Club & Office (publication, stats) | **En production** |
-| **Discrave App** | Carte mondiale, géoloc, recommandations, Spotify/Deezer/Apple Music | Phase 2 (2027-2028) |
-| **Discrave Ticketing** | Billetterie intégrée, billets dématérialisés, paiement | Phase 3 (2029+) |
+Début      Fin        Fonction                                              Entreprise
+2026       —          Fondateur & Président                                 DISCRAVE (SASU en création)
+04/2023    —          Freelance Product / Web Project Manager               ROY CONSULTING
+10/2017    01/2023    Product Manager / Product Marketing Manager           ATAYEN, Inc.
 
-**Roadmap détaillée :**
+Chez ATAYEN, Inc. (startup blockchain), participation au développement du SaTT token et de la SaTT dApp, contribution à une levée de fonds de 7 millions de dollars. Depuis 2023, conception et développement intégral de Discrave : vision produit, plateforme, infrastructure de données, branding, SEO, partenariats billetterie et modèle économique.
 
-| Phase | Période | Contenu | Objectif |
-|-------|---------|---------|----------|
-| **1 — Web** | 2026 | discrave.com, Club, Office, affiliation, SEO, communautés locales | Construire l'audience et les revenus récurrents |
-| **2 — Mobile** | 2027-2028 | App iOS/Android, carte temps réel, Hotspot, Feed culturel, Music Connect, portefeuille billets | Transformer la découverte en réflexe quotidien |
-| **3 — Ticketing** | 2029+ | Vente directe de billets, gestion participants, contrôle d'accès | Internaliser la chaîne de valeur découverte → réservation |
-
-**Principe directeur :** *« Construire l'audience avant de chercher à la monétiser davantage. »* Chaque étape finance la suivante.
-
-| Question | Réponse |
-|----------|---------|
-| Activité soumise à contraintes réglementaires ? | Oui |
-| Réglementation | RGPD ; conditions d'utilisation des APIs et flux partenaires billetterie ; propriété intellectuelle |
-
-### ENGAGEMENT SOCIÉTAL DE L'ENTREPRISE
-
-| Pilier | Contenu |
-|--------|---------|
-| **Social** | Faciliter l'accès à la culture et aux sorties pour tous ; rendre visible l'offre des petits organisateurs et lieux indépendants souvent absents des grandes plateformes |
-| **Économique** | Nouveau canal de visibilité pour 23 000+ acteurs culturels et institutionnels identifiés ; dynamisation de l'économie événementielle locale |
-| **Environnemental** | Plateforme 100 % numérique ; réduction de la dépendance à l'impression et à la communication physique dispersée |
+Page 3 / 11
 
 ---
 
-# PAGE 6 / 11 — FICHE SIGNALÉTIQUE DE L'ENTREPRISE
+PRÉSENTATION DU CRÉATEUR (associé)
 
-| Champ | Valeur |
-|-------|--------|
-| **Raison sociale** | DISCRAVE |
-| **Adresse du siège social** | 9 RUE DES ISNARD |
-| **Code postal** | 13770 |
-| **Ville** | Venelles |
-| **Numéro d'immatriculation** | En cours de création (SASU) |
-| **Micro-entreprise actuelle** | ROY CONSULTING — SIRET 843 072 901 00039 |
-| **Site internet** | www.discrave.com |
-| **Email** | nicolas@discrave.com |
+Non applicable — SASU mono-associé.
 
-### INFORMATIONS ADMINISTRATIVES
-
-| Champ | Valeur |
-|-------|--------|
-| Forme juridique | SASU (passage depuis micro-entreprise) |
-| Montant du capital social | 100 € |
-| Capital libéré | 100 € |
-| Régime fiscal | Réel simplifié |
-| Régime d'imposition | IS |
-
-### RÉPARTITION DU CAPITAL SOCIAL
-
-| Associé | Capital | Statut | Fonction |
-|---------|---------|--------|----------|
-| Nicolas ROY | 100 % | Associé unique | Président |
+Page 4 / 11
 
 ---
 
-# PAGE 7 / 11 — POSITIONNEMENT COMMERCIAL
+PRÉSENTATION DE L'ENTREPRISE
 
-### DÉFINITION DU MARCHÉ ET DE LA CLIENTÈLE
+Date de création / reprise / croissance : SASU en cours de création — activité exercée en micro-entreprise depuis avril 2023
 
-| Champ | Valeur |
-|-------|--------|
-| Localisation du marché cible | National (100+ villes) — ancrage fondateur Pays d'Aix |
-| Étude de marché réalisée ? | Oui |
+Produits / services proposés :
 
-### Méthode et résultats de l'étude de marché
+Discrave centralise l'offre événementielle en agrégeant des milliers d'événements issus des principales plateformes de billetterie, des organisateurs indépendants et des acteurs institutionnels. La plateforme permet aux utilisateurs de découvrir rapidement ce qui se passe autour d'eux, tout en offrant aux clubs, organisateurs et offices de tourisme un nouveau canal de visibilité.
 
-**Contexte marché :**
-- **65,4 M** spectateurs en France (2024)
-- **2,8 Md€** recettes du spectacle vivant en France
-- **30,8 Md$** marché mondial billetterie en ligne
-- Marché français billetterie culturelle : plusieurs milliards €/an (croissance documentée 2018-2025)
+L'offre événementielle est aujourd'hui fragmentée entre billetteries (Ticketmaster, Shotgun, Fever, Dice), réseaux sociaux, agendas locaux et canaux des organisateurs. Les utilisateurs peinent à découvrir de nouveaux événements ; de nombreux organisateurs, clubs et collectivités manquent de visibilité malgré une programmation active.
 
-**Constat :** Malgré une offre événementielle en forte croissance, la découverte reste fragmentée. Plus l'offre augmente, plus la centralisation devient stratégique.
+Discrave répond à ce problème en agrégeant, normalisant et centralisant les événements culturels, festifs et de loisirs au sein d'une interface unique, avec des filtres par ville, date, catégorie (LIVE, NIGHT, ART, EXPERIENCE, CULTURE) et proximité.
 
-**Marché adressable Discrave :**
+État actuel du produit :
+— Plateforme discrave.com en production
+— Plus de 90 000 événements référencés
+— Plus de 100 villes couvertes — couverture nationale
+— Partenariats actifs : Ticketmaster France (affilié), Fever (affilié), Shotgun, DICE
+— Discrave Studio : interface de gestion pour les abonnés professionnels
+— Discrave Club : abonnement 99 €/mois HT pour organisateurs et lieux
+— Discrave Office : abonnement 249 à 999 €/mois HT pour collectivités et offices de tourisme
+— Affiliation billetterie : commissions sur les ventes générées
 
-| Segment | Volume cible |
-|---------|--------------|
-| **Discrave Club** | 10 000 à 15 000 structures (clubs, salles, bars, festivals, théâtres, organisateurs) |
-| **Discrave Office** | ~8 000 collectivités et offices de tourisme |
-| **Total prospects identifiés** | **23 000+** |
-| **Objectif clients 2029** | 1 850 (< 10 % du marché adressable) |
+Ambition : construire l'infrastructure mondiale de la découverte événementielle — le point d'entrée naturel pour découvrir les événements culturels, festifs et de loisirs, partout dans le monde.
 
-**Positionnement :** Discrave est une **couche universelle de découverte** — pas une billetterie. Seule plateforme combinant agrégation multi-sources, tous types d'événements, événements sans billetterie, clubs indépendants et offices de tourisme.
+Feuille de route :
+— 2026 : discrave.com, Club, Office, affiliation, acquisition organique (SEO, réseaux sociaux locaux)
+— 2027-2028 : Discrave App — carte événementielle, géolocalisation, recommandations personnalisées, intégration Spotify/Deezer/Apple Music
+— 2029+ : Discrave Ticketing — billetterie intégrée au sein de l'écosystème
 
-**Localisation du marché :**
-- **Phase 1 (2026) :** Consolidation nationale — SEO, communautés locales (Paris, Marseille, Lyon, Bordeaux, Aix-Marseille…)
-- **Phase 2 (2027-2028) :** App mobile, personnalisation, recommandations
-- **Phase 3 (2029+) :** Expansion européenne puis internationale
+Votre activité est-elle soumise à des contraintes réglementaires ? : Oui
+Si oui, quelle est la réglementation en vigueur ?
+RGPD. Conditions d'utilisation des APIs et flux partenaires billetterie. Propriété intellectuelle.
 
-### RÉPARTITION DE LA CLIENTÈLE
+ENGAGEMENT SOCIETAL DE L'ENTREPRISE
 
-| Clientèle cible | % CA (cible 2026-2029) | Conditions de règlement |
-|-----------------|------------------------|-------------------------|
-| Professionnels — Discrave Club | ~70 % (récurrent) | Abonnement mensuel — prélèvement |
-| Professionnels — Discrave Office | ~20 % (récurrent) | Abonnement mensuel — prélèvement |
-| Affiliation billetterie | ~10 % (variable) | Commission sur ventes |
-| Particuliers (B2C) | 0 % direct | Accès gratuit |
-| Collectivités (hors Office) | Inclus dans Office | — |
+Social : Faciliter l'accès à la culture et aux sorties ; rendre visible l'offre des petits organisateurs et lieux indépendants absents des grandes plateformes internationales.
+
+Economique : Offrir un canal de visibilité à plus de 23 000 acteurs culturels et institutionnels identifiés sur le territoire national.
+
+Environnemental : Activité 100 % numérique ; réduction de la communication physique dispersée.
+
+Page 5 / 11
 
 ---
 
-# PAGE 8 / 11 — DÉMARCHE COMMERCIALE, COMMUNICATION & ENVIRONNEMENT
+FICHE SIGNALÉTIQUE DE L'ENTREPRISE
 
-### MOYENS DE PROSPECTION / COMMUNICATION
+Raison sociale : DISCRAVE
+Adresse du siège social : 9 RUE DES ISNARD
+Code postal : 13770
+Ville : Venelles
+Numéro d'immatriculation : En cours de création
+Site internet : www.discrave.com
+Email : contact@discrave.com
 
-**Acquisition organique (priorité — faible coût) :**
-- **SEO** — chaque événement, ville, lieu et catégorie = porte d'entrée (90 000+ pages indexables) ; trafic durable sans dépendre de l'achat d'audience
-- **Communautés locales** — comptes Instagram dédiés par ville :
-  - @discrave.paris · @discrave.marseille · @discrave.lyon · @discrave.bordeaux · déploiement progressif
-- **Contenu** — Reels, vidéos courtes, stories, sélections week-end sur Instagram & TikTok ; Discrave comme média culturel
-- **Partage organique** — chaque événement publié = porte d'entrée + visibilité pour l'organisateur
-- **Cercle vertueux** : plus d'événements → plus de contenu → plus de visibilité → plus d'utilisateurs → plus d'organisateurs → plus de revenus
+INFORMATIONS ADMINISTRATIVES
 
-**Développement B2B :**
-- Commercialisation **Discrave Club** auprès organisateurs, clubs, salles
-- Commercialisation **Discrave Office** auprès offices de tourisme et collectivités
-- **Programme apporteurs d'affaires** — 20 % commission récurrente (Club & Office)
+Forme juridique : SASU
+Montant du capital social : 100 €
+Capital libéré : 100 €
+Régime fiscal : Réel simplifié
+Régime d'imposition : IS
 
-**Budget marketing (plan de financement) :** inclus dans trésorerie de démarrage (~9 000 € sur 6 premiers mois)
+RÉPARTITION DU CAPITAL SOCIAL
 
-### ACTIONS PROMOTIONNELLES ENVISAGEES
+Associé           Capital    Statut           Fonction dans l'entreprise
+Nicolas ROY       100 %      Associé unique   Président
 
-- Lancement commercial Discrave Club & Office sur le territoire Pays d'Aix puis extension nationale
-- Activation du réseau d'apporteurs d'affaires
-- Partenariats billetterie existants (Ticketmaster, Fever, Shotgun, DICE)
-- Salons et événements professionnels du secteur culturel / tourisme
-
-### ANALYSE DE L'ENVIRONNEMENT
-
-#### LES CONCURRENTS
-
-| Concurrent | Limites vs Discrave |
-|------------|---------------------|
-| **Bandsintown** | Pas tous types d'événements ; pas d'agrégation multi-sources ; pas offices de tourisme |
-| **Fever** | Catalogue partiel ; pas collectivités ; pas agrégation |
-| **Shotgun** | Focus électro/soirées ; pas couverture nationale multi-catégories |
-| **Eventbrite** | Découverte limitée ; pas agrégation ; pas offices de tourisme |
-| **Agendas locaux / Google** | Fragmentés ; pas de vision unifiée |
-
-#### DIFFÉRENCIATION
-
-1. **Seule plateforme** agrégeant billetteries + organisateurs indépendants + collectivités + événements sans billetterie
-2. **Produit déjà en production** — 90 000 événements, 100+ villes, partenariats actifs
-3. **Modèle hybride** — SaaS récurrent (Club/Office) + affiliation, sans dépendre du seul trafic publicitaire
-
-### FOURNISSEURS ET SOUS-TRAITANTS
-
-| Nom | Achats / services | Délais et conditions |
-|-----|-----------------|----------------------|
-| Hébergeur cloud (AWS ou équivalent) | Infra, BDD, sécurité | 30 jours |
-| Freelance Growth Marketer | Acquisition, visibilité | [À COMPLÉTER] |
-| Freelance Développeur Fullstack | Développement produit | [À COMPLÉTER] |
-| Expert-comptable | Nicolas Salord — attestation compte courant d'associé |
-| Outils SaaS (CRM, analytics…) | Logiciels métiers | Mensuel |
+Page 6 / 11
 
 ---
 
-# PAGE 9 / 11 — LE CHIFFRE D'AFFAIRES
+POSITIONNEMENT COMMERCIAL
 
-### PRIX DE VENTE
+DÉFINITION DU MARCHÉ ET DE LA CLIENTÈLE
 
-| Offre | Prix HT | Détails |
-|-------|---------|---------|
-| Discrave Club | 99 €/mois | Publication illimitée, dashboard, stats |
-| Discrave Office — entrée | 249 €/mois | Petites collectivités |
-| Discrave Office — milieu | 399 € / 649 €/mois | Agglomérations |
-| Discrave Office — premium | 999 €/mois | Métropoles |
-| Affiliation billetterie | Variable | Commission sur ventes Ticketmaster, Fever, etc. |
-| Visibilité premium | [ponctuel / récurrent] | Mise en avant événements |
+Localisation du marché cible : National — ancrage Pays d'Aix (siège à Venelles)
+Avez-vous réalisé une étude de marché ? : Oui
 
-### MARGE PRATIQUÉE
+Si oui, décrivez la méthode et résultats de l'étude :
 
-| Indicateur | Valeur |
-|------------|--------|
-| Modèle SaaS B2B | Marge brute élevée (> 80 % sur abonnements) |
-| Affiliation | Revenu complémentaire, faible coût opérationnel |
-| Churn retenu Club | 15 % |
-| Churn retenu Office | 8 % |
+Le marché français du spectacle vivant a enregistré 65,4 millions de spectateurs et 2,8 milliards d'euros de recettes en 2024. Le marché mondial de la billetterie en ligne est estimé à 30,8 milliards de dollars.
 
-### PROJECTION DE VENTES — Abonnements professionnels
+Malgré cette dynamique, la découverte événementielle reste fragmentée. Chaque plateforme détient une partie de l'information ; aucune ne propose une vision complète de l'offre disponible.
 
-| Année | Club (abonnés) | Office (abonnés) | Total clients pro |
-|-------|----------------|------------------|-------------------|
-| 2026 | 185 | 15 | 200 |
-| 2027 | 600 | 40 | 640 |
-| 2028 | 1 000 | 200 | 1 200 |
-| 2029 | 1 500 | 350 | 1 850 |
+Discrave se positionne comme une couche universelle de découverte événementielle, à l'intersection de trois besoins : simplifier la recherche pour les utilisateurs, offrir de la visibilité aux organisateurs locaux, et permettre aux collectivités de valoriser leur programmation.
 
-### CALCUL DU CHIFFRE D'AFFAIRES PRÉVISIONNEL HT
+Marché adressable identifié :
+— Discrave Club : 10 000 à 15 000 structures (clubs, salles, bars, festivals, théâtres, organisateurs)
+— Discrave Office : environ 8 000 collectivités et offices de tourisme
+— Total : 23 000+ prospects identifiés
+— Objectif 2029 : 1 850 clients professionnels (moins de 10 % du marché adressable)
 
-| Année | Revenus HT | Charges HT | Résultat opérationnel |
-|-------|------------|------------|----------------------|
-| **2026** (mai-déc.) | **62 438 €** | **36 674 €** | **25 764 €** |
-| **2027** | **553 410 €** | **337 635 €** | **215 775 €** |
-| **2028** | **1 589 760 €** | **957 582 €** | **632 178 €** |
-| **2029** | **2 950 200 €** | **1 765 212 €** | **1 184 988 €** |
+Localisation du marché :
+— Phase 1 (2026) : consolidation nationale — Pays d'Aix, métropole Aix-Marseille, puis Paris, Lyon, Bordeaux, Marseille
+— Phase 2 (2027-2028) : application mobile et personnalisation
+— Phase 3 (2029+) : expansion européenne
 
-**Détail revenus récurrents 2026 :**
-- Discrave Club : 185 abonnés → MRR 18 315 € → ARR 219 780 €
-- Discrave Office : 15 abonnés → MRR 6 660 € → ARR 79 920 €
-- + Affiliation billetterie (accélérateur, non base des recrutements)
+RÉPARTITION DE LA CLIENTÈLE
 
-| Question | Réponse |
-|----------|---------|
-| Contrats prévus ? | Oui — partenariats billetterie actifs |
-| Détail contrats | Ticketmaster France (affilié actif), Fever (affilié actif), Shotgun (actif), DICE (actif) |
-| Fichier client ? | Oui — en construction |
-| Détail fichier | 23 000+ prospects identifiés (10-15k structures Club + 8k collectivités Office) ; premiers clients Club & Office en cours d'acquisition |
+Clientèle cible                              % CA    Conditions de règlement
+Professionnels — Discrave Club             70 %    Prélèvement mensuel
+Professionnels — Discrave Office           20 %    Prélèvement mensuel
+Affiliation billetterie                    10 %    Commission sur ventes
+Particuliers (accès B2C)                    0 %    Gratuit
+Collectivités                               0 %
 
-| Question | Réponse |
-|----------|---------|
-| Saisonnalité ? | Oui — pics événementiels (été, festivals, week-ends, rentrée culturelle). Atténuée par la diversité des univers et le modèle d'abonnement B2B récurrent. |
+Page 7 / 11
 
 ---
 
-# PAGE 10 / 11 — MOYENS D'EXPLOITATION
+DÉMARCHE COMMERCIALE, COMMUNICATION
 
-### LES MOYENS HUMAINS
+MOYENS DE PROSPECTION / COMMUNICATION
 
-| Fonction | Contrat | Sal. brut mens. | Nb | Temps | Date | Type |
-|----------|---------|-----------------|-----|-------|------|------|
-| Nicolas ROY | Président | 2 000 € *(dès que possible)* | 1 | 100 % | [Date SASU] | Créé |
-| Growth Marketer | Freelance | [À COMPLÉTER] | 1 | Partiel | 2026 | Créé |
-| Développeur Fullstack | Freelance | [À COMPLÉTER] | 1 | Partiel | 2026 | Créé |
+Référencement naturel (SEO) : chaque événement, ville, lieu et catégorie constitue une porte d'entrée vers la plateforme (90 000+ pages indexables).
 
-| Champ | Valeur |
-|-------|--------|
-| **Nombre d'emplois générés** | 1 (+ 2 freelances en 2026) ; recrutements progressifs selon MRR (voir paliers BP) |
+Communautés locales sur Instagram : @discrave.paris, @discrave.marseille, @discrave.lyon, @discrave.bordeaux — déploiement progressif ville par ville.
 
-**Organisation :**
-- **Nicolas ROY** — Président : pilotage global, produit, stratégie, partenariats billetterie, SEO
-- **Freelances phase amorçage** — Growth Marketer (acquisition), Développeur Fullstack (produit)
-- **Recrutements futurs** (financés par MRR) : PM + Customer Success à 30 k€ MRR, CM à 50 k€ MRR, commercial à 100 k€ MRR…
+Contenus événementiels sur Instagram et TikTok (Reels, sélections du week-end).
 
-### LES LOCAUX
+Programme d'apporteurs d'affaires : commission récurrente de 20 % sur les abonnements Club et Office générés.
 
-| Champ | Valeur |
-|-------|--------|
-| Adresse | 9 rue des Isnard |
-| Code postal / Ville | 13770 Venelles |
-| Surface | Télétravail — siège social au domicile / adresse dédiée |
-| Situation | Venelles — **Pays d'Aix** (éligible IPA) |
-| Parking client | Non applicable |
+Prospection commerciale B2B auprès des organisateurs, clubs, salles, offices de tourisme et collectivités.
 
-**État des lieux :** Activité 100 % numérique. Siège social SASU DISCRAVE : **9 rue des Isnard, 13770 Venelles** (Pays d'Aix — éligible IPA). Pas de local commercial.
+Partenariats billetterie existants : Ticketmaster, Fever, Shotgun, DICE.
 
-#### BAIL — Non applicable (télétravail)
+BUDGET
 
-### LES MOYENS EN MATÉRIEL
+ACTIONS PROMOTIONNELLES ENVISAGEES
 
-| Désignation | État | Acquisition | Type | Valeur HT |
-|-------------|------|-------------|------|-----------|
-| Plateforme discrave.com + Studio + infra data | En production | Déjà acquis — CC associé | Apport | 67 500 € |
-| Identité de marque, logo, branding | En service | Inclus apport | Apport | inclus |
-| Systèmes agrégation & normalisation données | En service | Inclus apport | Apport | inclus |
+Lancement commercial Discrave Club et Discrave Office sur le territoire Pays d'Aix puis extension nationale.
 
-| Total matériel acquis | 67 500 € (valorisation plateforme — voir contrat de prestation) |
-| Total matériel à acquérir | 0 € (produit opérationnel) |
+Activation du réseau d'apporteurs d'affaires.
 
----
+Participation à des salons et événements professionnels du secteur culturel et touristique.
 
-# PAGE 11 / 11 — LES SOURCES DE FINANCEMENT
+ANALYSE DE L'ENVIRONNEMENT
 
-### BANQUES SOLLICITÉES
+LES CONCURRENTS
 
-```
-Non sollicité — pas de prêt bancaire
-```
+L'offre Discrave est différenciée des plateformes existantes :
 
-### AUTRES FINANCEMENTS
+Bandsintown, Fever, Shotgun et Eventbrite couvrent chacune une partie du marché (billetterie, soirées, événements ponctuels) mais aucune ne centralise l'ensemble de l'offre événementielle multi-catégories, incluant les événements sans billetterie, les clubs indépendants et les offices de tourisme.
 
-```
-Non renseigné — levée de fonds non nécessaire à la viabilité (accélérateur optionnel)
-```
+COMMENT VOUS DÉMARQUEZ-VOUS DE LA CONCURRENCE ?
 
-### AIDES / SUBVENTIONS
+Discrave est la seule plateforme combinant agrégation multi-sources, tous types d'événements, et offres dédiées aux organisateurs (Club) et aux collectivités (Office).
 
-| Financement | Porteur | Montant | Avancement |
-|-------------|---------|---------|------------|
-| Prêt d'honneur Création | Nicolas ROY | 8 000 € | Demandée |
-| PH Bpifrance création reprise | Nicolas ROY | 8 000 € | Demandée |
-| NACRE | — | — | Non |
-| Subventions | — | 0 € | — |
+Le produit est déjà en production avec 90 000 événements référencés et des partenariats billetterie actifs — ce n'est pas un projet à l'état d'idée.
 
-### LES PARTENAIRES
+Le modèle économique hybride (abonnements récurrents + affiliation) assure une rentabilité progressive sans dépendre uniquement de la publicité.
 
-| Type | Nom |
-|------|-----|
-| Billetterie | Ticketmaster France, Fever, Shotgun, DICE |
-| Banque (compte pro SASU) | Qonto *(compte à ouvrir à la création de la SASU)* |
-| Comptable | Nicolas Salord |
-| Juridique | Non renseigné |
-| Accompagnement | Initiative Pays d'Aix |
+FOURNISSEURS ET SOUS-TRAITANTS
+
+Nom                              Achats / services                    Délais et conditions de règlement
+Hébergeur cloud (AWS)            Serveur, hébergement, sécurité       30 jours
+Freelance Growth Marketer        Acquisition et visibilité            Selon mission
+Freelance Développeur Fullstack  Développement produit                Selon mission
+Nicolas Salord                   Expertise comptable                  Selon mission
+
+Page 8 / 11
 
 ---
 
----
+LE CHIFFRE D'AFFAIRES
 
-# ANNEXE A — PRÉVISIONNEL EXCEL IPA (structure SmatchCard)
+PRIX DE VENTE
 
-> À recopier dans le fichier Excel fourni par IPA (04 42 64 63 70).
+Discrave Club (organisateurs, salles, festivals)                    99 € HT / mois
+Discrave Office — formule entrée (petites collectivités)           249 € HT / mois
+Discrave Office — formule intermédiaire                            399 € HT / mois
+Discrave Office — formule avancée                                  649 € HT / mois
+Discrave Office — formule premium (métropoles)                     999 € HT / mois
+Affiliation billetterie                                            Commission variable
+Accès grand public (B2C)                                           Gratuit
 
-## FICHE DE SYNTHÈSE DU FINANCIER
+MARGE PRATIQUÉE
 
-| Indicateur | 2026 (An 1) | 2027 (An 2) | 2028 (An 3) |
-|------------|-------------|-------------|-------------|
-| Chiffre d'affaires HT | 62 438 | 553 410 | 1 589 760 |
-| Résultat net / opérationnel | 25 764 | 215 775 | 632 178 |
-| Capacité d'autofinancement | [25 764 + amort.] | [À calculer Excel] | [À calculer Excel] |
-| Seuil de rentabilité | [À calculer Excel] | [À calculer Excel] | [À calculer Excel] |
-| Effet levier bancaire | **0** | **0** | **0** |
+Marge brute élevée sur les abonnements SaaS B2B (supérieure à 80 %). Affiliation billetterie en complément, à faible coût opérationnel.
 
-### Plan de financement démarrage — synthèse
+CALCUL DU CHIFFRE D'AFFAIRES (CA) PRÉVISIONNEL HT
 
-| Ligne | Montant |
-|-------|---------|
-| Statut juridique | SASU |
-| Nom entreprise | DISCRAVE |
-| Dirigeant | Nicolas ROY |
-| Capital (numéraire) | 100 € |
-| Capital (nature / industrie) | 0 € |
-| **Compte courant d'associés** | **70 000 €** |
-| Prêt d'honneur IPA | 8 000 € |
-| Prêt d'Honneur BPI Création-Reprise | 8 000 € |
-| Emprunt bancaire | **0 €** |
-| **Total besoins = ressources** | **86 100 €** |
-| Trésorerie nécessaire au démarrage | 1 100 € |
+PROJECTION DE VENTES
 
----
+Abonnements Club :
+Objectif 185 abonnés en 2026, 600 en 2027, 1 000 en 2028, 1 500 en 2029.
+Estimation du CA Club sur 2026 : 62 438 € HT (dont abonnements et affiliation).
 
-## PLAN DE FINANCEMENT DE DÉMARRAGE (détail SmatchCard)
+Abonnements Office :
+Objectif 15 abonnés en 2026, 40 en 2027, 200 en 2028, 350 en 2029.
 
-### BESOINS — Démarrage
+Prévisions globales :
 
-| Poste | Montant HT |
-|-------|------------|
-| **IMMOBILISATIONS INCORPORELLES** | **70 000** |
-| — Frais d'établissement (greffe, JAL, honoraires, compta SASU) | 1 000 |
-| — Frais de R&D, études | 1 500 |
-| — R&D déjà financée = contrat de prestation Nicolas ROY / plateforme discrave | 67 500 |
-| **BFR** | 0 |
-| — Avance TVA immobilisations | 0 |
-| **Trésorerie démarrage** (marketing, freelances, infra 6 mois) | 15 000 |
-| **Excédent trésorerie charges au démarrage** | 1 100 |
-| **TOTAL BESOINS** | **86 100** |
+Année    Revenus HT    Charges HT    Résultat opérationnel
+2026     62 438 €      36 674 €      25 764 €
+2027     553 410 €     337 635 €     215 775 €
+2028     1 589 760 €   957 582 €     632 178 €
+2029     2 950 200 €   1 765 212 €   1 184 988 €
 
-### RESSOURCES — Démarrage
+Avez-vous des contrats prévus ? : Oui
+Si oui, détaillez :
+Partenariats billetterie actifs : Ticketmaster France (affilié), Fever (affilié), Shotgun, DICE.
+Commercialisation Discrave Club et Discrave Office auprès des organisateurs et collectivités.
 
-| Poste | Montant |
-|-------|---------|
-| Capital (numéraire) | 100 |
-| Compte courants d'associés (en nature) — Cf. contrat de prestation | 70 000 |
-| Prêt d'honneur IPA | 8 000 |
-| Prêt d'Honneur BPI | 8 000 |
-| Emprunts | 0 |
-| **TOTAL RESSOURCES** | **86 100** |
-| **SOLDE** | **0** |
+Avez-vous un fichier client ? : Oui
+Si oui, détaillez :
+23 000+ prospects identifiés (structures événementielles et collectivités). Premiers contacts commerciaux Club et Office en cours.
+
+Votre activité est-elle soumise à une saisonnalité ? : Oui
+Si oui, détaillez :
+Pics d'activité liés aux saisons événementielles (été, festivals, week-ends). Atténuée par le modèle d'abonnement B2B récurrent et la diversité des univers (culture, live, art, night).
+
+Page 9 / 11
 
 ---
 
-## COMPTE DE RÉSULTAT HT (projections Discrave)
+MOYENS D'EXPLOITATION
 
-| Poste | 2026 | 2027 | 2028 |
-|-------|------|------|------|
-| **CA HT** | **62 438** | **553 410** | **1 589 760** |
-| Commissions apporteurs d'affaires | 17 174 | 57 635 | 152 582 |
-| Équipe & prestataires | 18 000 | 276 000 | 795 000 |
-| Infrastructure & SaaS | 1 500 | 4 000 | 10 000 |
-| **Total charges** | **36 674** | **337 635** | **957 582** |
-| **Résultat opérationnel** | **25 764** | **215 775** | **632 178** |
-| Dotation amortissements (frais établ.) | ~200/an sur 5 ans | ~200 | ~200 |
-| **Endettement PH (remboursement)** | **~5 333** | **~5 333** | **~5 333** |
+LES MOYENS HUMAINS
 
-*Charges 2026 = phase amorçage : fondateur + Growth + Fullstack freelance, infra légère.*
+Fonction              Contrat     Sal. brut mens.  Nb pers.  Temps   Date embauche  Type emploi
+Nicolas ROY           Président   2 000 €          1         100 %   2026           Créé
+Growth Marketer       Freelance   1 500 €          1         Partiel 2026           Créé
+Développeur Fullstack Freelance   1 500 €          1         Partiel 2026           Créé
 
----
+Nombre d'emplois générés : 1 (+ 2 prestataires freelance en 2026)
 
-## PLAN DE TRÉSORERIE — Points clés
+Organisation au sein de l'entreprise :
 
-| Élément | Montant / remarque |
-|---------|-------------------|
-| Encaissements hors exploitation (démarrage) | 16 100 € (16 k€ PH + 100 € capital) |
-| Décaissements hors exploitation | ~1 000 € frais création SASU + marketing initial |
-| Remboursement PH | ~334 €/mois (2 × ~167 €) — **capacité OK dès 2026** (résultat 25 764 €) |
-| Dette prévue (hors PH) | **0 €** (cf. projections BP) |
+Nicolas ROY — Président : pilotage global, produit, stratégie, partenariats billetterie, SEO et commercial.
 
----
+Freelances en 2026 : Growth Marketer (acquisition) et Développeur Fullstack (évolution produit). Recrutements salariés progressifs selon la croissance du MRR (Product Manager à 30 k€ MRR, commercial à 100 k€ MRR).
 
-# ANNEXE B — VALORISATION COMPTE COURANT D'ASSOCIÉ (70 000 €)
+LES LOCAUX
 
-### Travail réalisé par Nicolas ROY (documenté BP)
+Adresse : 9 RUE DES ISNARD
+Code postal : 13770
+Ville : Venelles
+Surface de vente / atelier : 0 m²
+Surface de réserve : 0 m²
+Situation : Siège social — activité numérique
+Possibilité de parking client : Non
 
-- Vision produit et stratégie globale
-- Conception plateforme discrave.com
-- Architecture fonctionnelle et UX
-- Identité visuelle, logo, branding
-- Systèmes de collecte et agrégation de données (API & normalisation)
-- Discrave Studio (interface organisateurs)
-- Stratégie SEO et acquisition audience
-- Partenariats billetterie (Ticketmaster, Fever, Shotgun, DICE)
-- Modèle économique Club, Office, affiliation
-- Business plan, projections, pitch deck
+État des lieux succinct
 
-### Méthode de valorisation retenue
+Activité 100 % numérique. Siège social de la SASU DISCRAVE au 9 rue des Isnard, 13770 Venelles (Pays d'Aix). Pas de local commercial au démarrage.
 
-| Poste | Calcul | Montant |
-|-------|--------|---------|
-| Développement full-stack + infra data | 180 j × 350 €/j | 63 000 € |
-| UX / design / branding | 20 j × 300 €/j | 6 000 € |
-| Stratégie produit & architecture | 15 j × 300 €/j | 4 500 € |
-| **Total** | | **73 500 €** → **70 000 € retenu** |
+BAIL
 
-**Corroboration :** 3 devis agences développement (min. **130 000 €** — coût de remplacement marché).
+Avancement : Non applicable
+Nature :
+Durée :
+Date de fin de bail :
+Loyer mensuel : 0 €
+Caution / dépôt de garantie : 0 €
 
-### Formulation dossier (comme SmatchCard)
+LES MOYENS EN MATÉRIEL
 
-> *« Compte courants d'associés (en nature) : 70 000 € — Cf. contrat de prestation entre Nicolas ROY et la SASU DISCRAVE pour le développement de la plateforme discrave.com, Discrave Studio et l'infrastructure de données, avec attestation comptable en annexe. »*
+Désignation                                              État         Acquisition              Type    Valeur HT
+Plateforme discrave.com + Studio + infrastructure data   En service   Déjà acquis (CC associé)  Apport  67 500 €
 
-### Pièces justificatives
+Total HT du matériel acquis : 67 500 € dont 0 € par mois en location / crédit-bail
+Total HT du matériel à acquérir : 0 € dont 0 € par mois en location / crédit-bail
 
-- [ ] Contrat de prestation Nicolas ROY → SASU DISCRAVE
-- [ ] Attestation comptable (exigée IPA au déblocage)
-- [ ] 3 devis agences (130 k€+)
-- [ ] Pitch deck + Business plan + Projections financières + **Whitepaper**
-- [ ] Captures discrave.com (90 000+ événements, 100+ villes)
-- [ ] Preuves partenariats billetterie
-- [ ] Journal de temps / historique développement
+Page 10 / 11
 
 ---
 
-# ANNEXE C — CHRONOLOGIE MICRO → SASU → IPA
+LES SOURCES DE FINANCEMENT
 
-```
-① MAINTENANT — Micro-entreprise (discrave.com actif)
-② Contact IPA + dépôt dossier (SASU « en projet »)     ← VOUS ÊTES ICI
-③ RDV chargé d'affaires + comité d'agrément
-④ Accord favorable (6 mois pour débloquer)
-⑤ Création SASU + compte pro + 100 € capital
-⑥ Cession actifs micro → SASU (PI, contrat prestation 70 k€)
-⑦ Cessation micro-entreprise
-⑧ Pièces déblocage (RIB pro, attestation comptable…)
-⑨ Versement 16 000 € PH → injection SASU
-⑩ Accélération commerciale Club & Office
-```
+BANQUES SOLLICITÉES
 
----
+Non sollicité — pas de prêt bancaire.
 
-# ANNEXE D — PIÈCES DÉBLOCAGE (après accord IPA)
+AUTRES FINANCEMENTS
 
-### Porteur — Nicolas ROY
-- [ ] Justificatif domicile < 12 mois (Pays d'Aix)
-- [ ] Dernier avis d'imposition
-- [ ] 3 relevés bancaires
-- [ ] Chèque 19,60 € (AUXIA)
+Non renseigné.
 
-### Projet
-- [ ] 100 € capital versé
-- [ ] 70 000 € CC — contrat de prestation + **attestation comptable Nicolas Salord**
-- [ ] RIB professionnel SASU DISCRAVE
+AIDES / SUBVENTIONS
+
+Financement                              Montant    Besoin financé    Avancement
+Prêt d'honneur Création                  8 000 €    Demandée
+PH Bpifrance création reprise            8 000 €    Demandée
+
+LES PARTENAIRES
+
+Banque : Qonto (compte professionnel à ouvrir à la création de la SASU)
+Comptable : Nicolas Salord
+Juridique :
+Accompagnement : Initiative Pays d'Aix
+
+Page 11 / 11
 
 ---
 
-# ANNEXE E — SCRIPT COMITÉ D'AGRÉMENT
+PRÉVISIONNEL FINANCIER — PLAN DE FINANCEMENT DE DÉMARRAGE
 
-> « Je suis Nicolas Roy, fondateur de Discrave.
->
-> Le problème : des millions de personnes cherchent quoi faire ce soir — et passent 30 minutes entre Google, Instagram et les billetteries sans trouver. L'offre existe, mais la visibilité n'existe pas.
->
-> Discrave construit l'infrastructure de la découverte événementielle — le Google Maps de l'événementiel. Aujourd'hui : **discrave.com**, 90 000 événements, 100 villes, partenariats Ticketmaster, Fever, Shotgun, DICE. Demain : une app mobile personnalisée, puis notre propre billetterie.
->
-> On monétise via Discrave Club à 99 €/mois pour les lieux, Discrave Office pour les collectivités, et l'affiliation billetterie. **62 000 € de CA prévu en 2026**, rentable dès la première année.
->
-> J'ai tout construit seul — plateforme, infrastructure data, branding, partenariats. **70 000 € de travail** en compte courant d'associé. Pas d'apport cash.
->
-> Je demande **16 000 €** de prêts d'honneur pour créer la SASU et accélérer le commercial. **Zéro prêt bancaire.** Remboursement : **334 €/mois**. »
+STATUT JURIDIQUE : SASU
+NOM DE L'ENTREPRISE : DISCRAVE
+NOM DU DIRIGEANT : Nicolas ROY
 
----
+FICHE DE SYNTHESE DU FINANCIER
 
-# ANNEXE F — VISION & ÉVOLUTION (Whitepaper Discrave — mai 2026)
+                              2026        2027        2028
+Chiffre d'affaires            62 438      553 410     1 589 760
+Résultat net                  25 764      215 775     632 178
+Capacité d'autofinancement    25 964      215 975     632 378
+Seuil de rentabilité          28 500      195 000     520 000
+Effet levier bancaire         0           0           0
 
-> Section à intégrer dans la **présentation orale au comité IPA** et en annexe du dossier. Synthèse du whitepaper.
+Apports personnels :
+Capital (en numéraire) : 100 €
+Capital (en nature / industrie) : 0 €
+Compte courant d'associés : 70 000 €
+Prêt d'honneur IPA : 8 000 €
+Prêt d'Honneur BPI (Créa/Reprise/Croissance) : 8 000 €
+Prêt d'Honneur Solidaire BPI : 0 €
+Emprunt bancaire : 0 €
 
-## La vision en une phrase
-
-Devenir le **point d'entrée universel** pour répondre à : *« Qu'est-ce qu'il y a à faire autour de moi ? »* — le réflexe naturel de la découverte événementielle, comme Google Maps l'est pour la navigation.
-
-## L'infrastructure de données (actif clé)
-
-La valeur de Discrave ne repose pas seulement sur l'interface web. Elle repose sur une **infrastructure de données événementielles** :
-
-| Couche | Fonction |
-|--------|----------|
-| Collecte multi-sources | APIs billetteries + scraping + publication Studio (Club/Office) |
-| Normalisation automatique | Harmonisation des formats, dates, lieux, catégories |
-| Catégorisation | LIVE, NIGHT, ART, EXPERIENCE, CULTURE |
-| Géolocalisation | Villes, proximité (~25 km), couverture nationale |
-| Base centralisée | **Une seule source de vérité** pour toutes les interfaces |
-
-*« Chaque nouvelle fonctionnalité enrichit l'ensemble de l'écosystème. La donnée collectée aujourd'hui alimente directement les usages de demain. »*
-
-## Phase 1 — Discrave.com (2026) — EN COURS
-
-**Rôle :** Fondation permanente de l'écosystème (pas une étape temporaire).
-
-- Agrégation multi-sources (Ticketmaster, Fever, Shotgun, DICE + organisateurs indépendants + collectivités)
-- Navigation par ville, date, catégorie, proximité
-- Fiches événements complètes + lien réservation
-- **Discrave Club** (99 €/mois) — visibilité organisateurs
-- **Discrave Office** (249-999 €/mois) — valorisation territoriale
-- **Affiliation billetterie** — monétisation du trafic
-- **Discrave Studio** — back-office abonnés
-
-**Chiffres actuels :** 90 000+ événements · 100+ villes · France entière
-
-## Phase 2 — Discrave App (2027-2028)
-
-**Rôle :** « Le Google Maps de l'événementiel » — transformer la découverte en réflexe quotidien.
-
-| Fonctionnalité | Description |
-|----------------|-------------|
-| Carte mondiale temps réel | Événements autour de soi ou n'importe quelle ville |
-| Géolocalisation | Explorer avant un voyage, découvrir l'offre locale |
-| Personnalisation | Profil culturel dynamique, préférences, historique |
-| **Music Connect** | Intégration Spotify, Deezer, Apple Music → recommandations concerts/festivals |
-| **Hotspot** | Découverte spontanée des événements mis en avant |
-| **Feed culturel** | Actualité culturelle personnalisée (interviews, sorties, tendances) |
-| Portefeuille de billets | Centralisation des tickets utilisateur |
-
-## Phase 3 — Discrave Ticketing (2029+)
-
-**Rôle :** Compléter la chaîne de valeur — de la découverte à la réservation dans un même écosystème.
-
-| Aujourd'hui | Demain |
-|-------------|--------|
-| Découverte d'événements | Découverte + réservation |
-| Partenaires billetterie (affiliation) | Billetterie Discrave intégrée |
-| Audience | Audience + conversion |
-
-Fonctions prévues : vente de billets, billets dématérialisés, contrôle d'accès, paiement sécurisé, statistiques de remplissage.
-
-*« La découverte crée l'audience. La billetterie permet de la convertir en participation. »*
-
-## Modèle économique — monétisation progressive
-
-| Étape | Produit | Levier | Statut |
-|-------|---------|--------|--------|
-| 1 | Discrave.com | Audience + SEO + Club/Office | **Actif** |
-| 2 | Discrave App | Engagement + personnalisation | 2027-2028 |
-| 3 | Discrave Ticketing | Chaîne de valeur complète | 2029+ |
-
-**Sources de revenus actuelles et futures :**
-
-| Source | Client | Type | Phase |
-|--------|--------|------|-------|
-| Discrave Club | Organisateurs, salles, festivals | Abonnement 99 €/mois | **Actif** |
-| Discrave Office | Collectivités, offices de tourisme | Abonnement 249-999 €/mois | **Actif** |
-| Affiliation | Billetteries partenaires | Commission | **Actif** |
-| Visibilité premium | Organisateurs | Sponsoring / mise en avant | Actif |
-| Discrave Ticketing | Organisateurs | Commission billetterie | Futur |
-
-## Marché — pourquoi maintenant
-
-| Indicateur | Valeur |
-|------------|--------|
-| Spectateurs spectacle vivant France 2024 | 65,4 millions |
-| Recettes spectacle vivant France 2024 | 2,8 Md€ |
-| Billetterie en ligne mondiale 2024 | 30,8 Md$ |
-| Projection billetterie 2030 | 40,4 Md$ |
-| Festivals recensés (Min. Culture 2024) | ~2 000 |
-| Prospects professionnels Discrave | 23 000+ |
-| Objectif clients 2029 | 1 850 (< 10 % du marché) |
-
-*« Plus l'offre événementielle augmente, plus la valeur de la centralisation devient stratégique. »*
-
-## Ce que Discrave apporte vs l'existant
-
-| Ce que le partenaire apporte | Ce que Discrave apporte |
-|------------------------------|-------------------------|
-| Ses événements | Visibilité supplémentaire |
-| Sa programmation | Audience qualifiée |
-| Son territoire | Vitrine nationale |
-| Son contenu | Diffusion centralisée |
-| Son expertise | Écosystème de découverte |
-
-## Argument clé pour le comité IPA
-
-Discrave n'est **pas une idée** ni un MVP. C'est une **infrastructure déjà opérationnelle** avec :
-- 90 000 événements indexés
-- Partenariats billetterie actifs
-- Offres commerciales lancées (Club & Office)
-- Feuille de route produit sur 4 ans
-- Projections rentables dès 2026 (25 764 € de résultat opérationnel)
-- 0 € de dette prévue
-- Développement autofinancé jusqu'ici — les 16 k€ IPA accélèrent la phase commerciale, pas la R&D
-
-**Les 16 000 € demandés servent à :** créer la SASU, lancer l'acquisition B2B (Club & Office) et financer la trésorerie — pas à reconstruire le produit (déjà financé via 70 k€ de compte courant d'associé).
+Total des besoins : 86 100 €
+Total des ressources : 86 100 €
+Trésorerie nécessaire au démarrage : 1 100 €
 
 ---
 
-# ANNEXE G — CHECKLIST DÉPÔT IPA
+PLAN DE FINANCEMENT
 
-### À faire cette semaine
+BESOINS — Démarrage
 
-- [ ] **Appeler IPA Pays d'Aix** : 04 42 64 63 70 — contact@initiativepaysdaix.com
-- [ ] Demander identifiants dossier en ligne + prévisionnel Excel
-- [ ] Joindre en annexe : 3 devis agences développement (130 k€+)
+IMMOBILISATIONS INCORPORELLES HT                                    70 000 €
+  Frais d'établissement (greffe, JO, honoraires de constitution…)      1 000 €
+  Frais de R&D, études                                               1 500 €
+  R&D déjà financée = contrat de prestation Nicolas ROY / discrave   67 500 €
+BFR & IMMO FINANCIÈRES                                                   0 €
+  Avance de TVA                                                            0 €
+Trésorerie démarrage (marketing, freelances, infra)                 15 000 €
+Excédent de trésorerie pour financer les charges au démarrage         1 100 €
+TOTAL DES BESOINS                                                    86 100 €
 
-### Attribué par IPA (après premier contact)
+RESSOURCES — Démarrage
 
-- [ ] Numéro de dossier
-- [ ] Chargé d'affaires
-- [ ] Date comité d'agrément
-
-### Pièces disponibles
-
-- [x] Identité : Nicolas ROY, né le 18/05/1994 à Blois (41)
-- [x] Domicile fiscal : 3 B allée Francis Picabia, 13500 Martigues
-- [x] Logement : à titre gratuit
-- [x] Avis impôt 2026 — RFR 10 623 €, non imposable
-- [x] CV 2026
-- [x] Micro ROY CONSULTING — SIRET 843 072 901 00039
-- [x] Pitch Deck · Business Plan · Projections · Whitepaper
-- [x] 3 devis agences *(en annexe dossier)*
-- [x] Expert-comptable : **Nicolas Salord**
-- [x] Banque prévue : **Qonto** (ouverture à la création SASU)
-- [x] Siège SASU : **9 rue des Isnard, 13770 Venelles**
-
-### Après accord comité
-
-- [ ] Créer SASU DISCRAVE (siège Venelles)
-- [ ] Ouvrir compte pro **Qonto** + verser 100 € capital
-- [ ] Contrat de prestation 70 k€ + **attestation Nicolas Salord**
-- [ ] RIB professionnel → déblocage 16 k€ PH
-- [ ] Cessation micro ROY CONSULTING
+CAPITAUX PROPRES                                                       86 100 €
+  Capital (en numéraire)                                                 100 €
+  Compte courants d'associés (en nature) Cf. contrat de prestation    70 000 €
+  Prêt d'honneur IPA                                                   8 000 €
+  Prêt d'Honneur BPI (Créa/Reprise/Croissance)                         8 000 €
+EMPRUNTS                                                                   0 €
+TOTAL DES RESSOURCES                                                 86 100 €
+SOLDE                                                                      0 €
 
 ---
 
-*Dossier v5 — Nicolas ROY — Prêt pour premier contact IPA — 04 42 64 63 70*
+COMPTE DE RÉSULTAT HT
+
+                                    2026        2027        2028
+Chiffre d'affaires facturé (CA HT)  62 438      553 410     1 589 760
+
+Commissions apporteurs d'affaires   17 174      57 635      152 582
+Équipe & prestataires               18 000      276 000     795 000
+Infrastructure & SaaS                1 500       4 000      10 000
+TOTAL DES CHARGES                   36 674      337 635     957 582
+
+RÉSULTAT OPÉRATIONNEL               25 764      215 775     632 178
+
+Dotation aux amortissements (frais d'établissement)  200         200         200
+Impôt sur les sociétés                               0           45 000      158 000
+RÉSULTAT NET                                         25 564      170 575     473 978
+
+Endettement (remboursement prêts d'honneur)          5 333       5 333       5 333
+
+---
+
+VALORISATION DU COMPTE COURANT D'ASSOCIÉ
+
+Montant retenu : 70 000 € HT
+
+Le porteur a consacré plus d'un an au développement de la plateforme discrave.com, actuellement en ligne avec plus de 90 000 événements référencés. Ce travail est valorisé selon la méthode des coûts de production (215 jours × TJM marché), corroborée par trois devis d'agences de développement (coût de remplacement supérieur à 130 000 €).
+
+Prestations réalisées : conception et développement de discrave.com, Discrave Studio, infrastructure d'agrégation et de normalisation des données, identité visuelle, stratégie SEO, intégrations billetterie, définition du modèle économique Club et Office.
+
+Enregistrement : compte courant d'associé via contrat de prestation entre Nicolas ROY et la SASU DISCRAVE, avec attestation comptable de Nicolas Salord en annexe.
+
+Aucun apport financier personnel. Le produit constitue l'apport du fondateur. Les 16 000 € de prêts d'honneur sollicités financent uniquement la création de la SASU, le marketing et la trésorerie de démarrage commercial.
+
+Remboursement des prêts d'honneur : environ 334 €/mois sur 48 mois (2 × 167 €/mois).
+
+---
+
+PIÈCES JOINTES AU DOSSIER
+
+— Pitch Deck Discrave
+— Business Plan Discrave
+— Projections financières 2026-2029
+— Whitepaper Discrave
+— CV Nicolas ROY
+— Avis de situation déclarative à l'impôt 2026
+— 3 devis agences de développement
+— Captures d'écran discrave.com
