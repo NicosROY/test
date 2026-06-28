@@ -1,26 +1,18 @@
 #!/usr/bin/env python3
-"""Generate IPA dossier PDF from markdown source."""
+"""Generate IPA dossier PDF from markdown source via HTML + wkhtmltopdf."""
 
 from __future__ import annotations
 
+import html
 import re
+import subprocess
 from pathlib import Path
-
-from fpdf import FPDF
 
 ROOT = Path(__file__).resolve().parents[1]
 MD_PATH = ROOT / "discrave-dossier-ipa-plan-financement.md"
+HTML_PATH = ROOT / "discrave-dossier-ipa.html"
 PDF_PATH = ROOT / "discrave-dossier-ipa.pdf"
-FONT_REGULAR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-FONT_OBLIQUE = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-
-PAGE_W = 210
-MARGIN_L = 18
-MARGIN_R = 18
-MARGIN_T = 18
-MARGIN_B = 18
-CONTENT_W = PAGE_W - MARGIN_L - MARGIN_R
+CSS_PATH = ROOT / "discrave-dossier-ipa.css"
 
 SECTION_TITLES = {
     "DOSSIER DE PRÉSENTATION DU PROJET",
@@ -74,183 +66,253 @@ SUBSECTION_TITLES = {
     "FICHE DE SYNTHESE DU FINANCIER",
     "BESOINS — Démarrage",
     "RESSOURCES — Démarrage",
+    "COMMENT VOUS DÉMARQUEZ-VOUS DE LA CONCURRENCE ?",
+}
+
+KNOWN_TABLE_HEADERS = {
+    "Année          Intitulé                                                          Niveau",
+    "Début      Fin        Fonction                                              Entreprise",
+    "Clientèle cible                              % CA    Conditions de règlement",
+    "Nom                              Achats / services                    Délais et conditions de règlement",
+    "Associé           Capital    Statut           Fonction dans l'entreprise",
+    "Financement                              Montant    Besoin financé    Avancement",
+    "Fonction              Contrat     Sal. brut mens.  Nb pers.  Temps   Date embauche  Type emploi",
+    "Désignation                                              État         Acquisition              Type    Valeur HT",
+    "Année    Revenus HT    Charges HT    Résultat opérationnel",
+    "                              2026        2027        2028",
 }
 
 
-class DossierPDF(FPDF):
-    def __init__(self) -> None:
-        super().__init__(unit="mm", format="A4")
-        self.set_auto_page_break(auto=True, margin=MARGIN_B)
-        self.add_font("DejaVu", "", FONT_REGULAR)
-        self.add_font("DejaVu", "B", FONT_BOLD)
-        self.add_font("DejaVu", "I", FONT_OBLIQUE)
-
-    def header(self) -> None:
-        if self.page_no() == 1:
-            return
-        self.set_font("DejaVu", "I", 8)
-        self.set_text_color(120, 120, 120)
-        self.cell(0, 6, "DISCRAVE — Dossier Initiative Pays d'Aix", align="L")
-        self.ln(8)
-        self.set_text_color(0, 0, 0)
-
-    def footer(self) -> None:
-        self.set_y(-12)
-        self.set_font("DejaVu", "I", 8)
-        self.set_text_color(120, 120, 120)
-        self.cell(0, 8, f"Page {self.page_no()}", align="C")
-        self.set_text_color(0, 0, 0)
-
-    def write_line(self, text: str, size: float = 9.5, style: str = "", lh: float = 5.0) -> None:
-        self.set_font("DejaVu", style, size)
-        self.multi_cell(CONTENT_W, lh, text)
-
-    def write_section(self, title: str) -> None:
-        self.ln(3)
-        self.set_fill_color(30, 58, 95)
-        self.set_text_color(255, 255, 255)
-        self.set_font("DejaVu", "B", 11)
-        self.multi_cell(CONTENT_W, 7, title, fill=True)
-        self.set_text_color(0, 0, 0)
-        self.ln(2)
-
-    def write_subsection(self, title: str) -> None:
-        self.ln(2)
-        self.set_font("DejaVu", "B", 10)
-        self.set_text_color(30, 58, 95)
-        self.multi_cell(CONTENT_W, 5.5, title)
-        self.set_text_color(0, 0, 0)
-        self.ln(1)
-
-    def write_page_marker(self, text: str) -> None:
-        self.ln(2)
-        self.set_font("DejaVu", "I", 8)
-        self.set_text_color(140, 140, 140)
-        self.cell(CONTENT_W, 4, text, align="R")
-        self.set_text_color(0, 0, 0)
-        self.ln(4)
+def esc(text: str) -> str:
+    return html.escape(text.strip())
 
 
-def normalize(text: str) -> str:
-    text = text.replace("\u2014", " - ")
-    text = text.replace("\u2013", "-")
-    text = text.replace("\u00a0", " ")
-    return text.strip()
+def is_field_line(line: str) -> bool:
+    stripped = line.strip()
+    if "?" in stripped and not re.search(r"\s{2,}", stripped):
+        return True
+    if ":" in stripped and not re.search(r"\s{2,}", stripped):
+        return True
+    return False
 
 
-def is_table_header(line: str) -> bool:
-    return bool(re.match(r"^(Année|Début|Fonction|Clientèle|Nom|Associé|Financement|Désignation|\s+\d{4})", line))
+def is_table_line(line: str) -> bool:
+    stripped = line.strip()
+    if is_field_line(stripped):
+        return False
+    if stripped in KNOWN_TABLE_HEADERS:
+        return True
+    if re.match(r"^\s{2,}\d{4}", line):
+        return True
+    parts = re.split(r"\s{2,}", stripped)
+    return len(parts) >= 3
 
 
-def render_markdown(pdf: DossierPDF, content: str) -> None:
-    pdf.add_page()
-    pdf.set_left_margin(MARGIN_L)
-    pdf.set_right_margin(MARGIN_R)
-    pdf.set_x(MARGIN_L)
+def split_table_row(line: str) -> list[str]:
+    return [cell.strip() for cell in re.split(r"\s{2,}", line.strip()) if cell.strip()]
 
-    lines = [normalize(line) for line in content.splitlines()]
+
+def field_paragraph(line: str) -> str:
+    if ":" in line and not line.startswith("http"):
+        label, _, value = line.partition(":")
+        return f'<p><strong>{esc(label)}:</strong> {esc(value)}</p>'
+    return f"<p>{esc(line)}</p>"
+
+
+def markdown_to_html(content: str) -> str:
+    lines = content.splitlines()
+    parts: list[str] = []
     i = 0
+
     while i < len(lines):
-        line = lines[i]
+        line = lines[i].rstrip()
+        stripped = line.strip()
 
-        if not line:
-            pdf.ln(2)
+        if not stripped:
             i += 1
             continue
 
-        if line == "---":
-            pdf.ln(2)
-            pdf.set_draw_color(200, 200, 200)
-            y = pdf.get_y()
-            pdf.line(MARGIN_L, y, PAGE_W - MARGIN_R, y)
-            pdf.ln(4)
+        if stripped == "---":
+            parts.append("<hr>")
             i += 1
             continue
 
-        if re.match(r"^Page \d+ / \d+$", line):
-            pdf.write_page_marker(line)
+        if re.match(r"^Page \d+ / \d+$", stripped):
+            parts.append(f'<div class="page-marker">{esc(stripped)}</div>')
             i += 1
             continue
 
-        if line in SECTION_TITLES:
-            pdf.write_section(line)
+        if stripped in SECTION_TITLES:
+            parts.append(f"<h1>{esc(stripped)}</h1>")
             i += 1
             continue
 
-        if line in SUBSECTION_TITLES:
-            pdf.write_subsection(line)
+        if stripped in SUBSECTION_TITLES:
+            parts.append(f"<h2>{esc(stripped)}</h2>")
             i += 1
             continue
 
-        if line == "COMMENT VOUS DÉMARQUEZ-VOUS DE LA CONCURRENCE ?":
-            pdf.write_subsection(line)
+        if stripped.startswith("— "):
+            items = [f"<li>{esc(stripped[2:])}</li>"]
             i += 1
+            while i < len(lines) and lines[i].strip().startswith("— "):
+                items.append(f"<li>{esc(lines[i].strip()[2:])}</li>")
+                i += 1
+            parts.append("<ul>" + "".join(items) + "</ul>")
             continue
 
-        if line.startswith("— "):
-            pdf.set_x(MARGIN_L + 3)
-            pdf.write_line(f"• {line[2:]}", size=9.5)
-            pdf.set_x(MARGIN_L)
-            i += 1
-            continue
-
-        if line.startswith("Produits / services proposés :"):
-            pdf.write_subsection(line)
-            i += 1
-            continue
-
-        if line.startswith("État actuel du produit :") or line.startswith("Feuille de route :") or line.startswith("Ambition :"):
-            pdf.ln(1)
-            pdf.write_line(line, style="B", size=9.5)
-            i += 1
-            continue
-
-        if line.startswith("Organisation au sein de l'entreprise :") or line.startswith("État des lieux succinct"):
-            pdf.ln(1)
-            pdf.write_line(line, style="B", size=9.5)
-            i += 1
-            continue
-
-        if line.startswith("Apports personnels :") or line.startswith("Prestations réalisées :") or line.startswith("Enregistrement :"):
-            pdf.ln(1)
-            pdf.write_line(line, style="B", size=9.5)
-            i += 1
-            continue
-
-        if is_table_header(line):
-            pdf.set_font("DejaVu", "B", 8.5)
-            pdf.set_fill_color(240, 244, 248)
-            pdf.multi_cell(CONTENT_W, 5, line, fill=True)
-            i += 1
-            while i < len(lines) and lines[i] and lines[i] not in SECTION_TITLES and lines[i] not in SUBSECTION_TITLES and not re.match(r"^Page \d+ / \d+$", lines[i]) and lines[i] != "---":
-                if lines[i].startswith("Avez-vous") or lines[i].startswith("Si oui") or lines[i].startswith("Votre activité") or lines[i].startswith("Nombre d'emplois") or lines[i].startswith("Total HT") or lines[i].startswith("Chez ATAYEN") or lines[i].startswith("Le porteur") or lines[i].startswith("Aucun apport") or lines[i].startswith("Remboursement") or lines[i].startswith("Non applicable") or lines[i].startswith("Non sollicité") or lines[i].startswith("Non renseigné") or lines[i].startswith("Banque :") or lines[i].startswith("Comptable :") or lines[i].startswith("Juridique :") or lines[i].startswith("Accompagnement :") or lines[i].startswith("Localisation du marché") or lines[i].startswith("Marché adressable") or lines[i].startswith("Abonnements") or lines[i].startswith("Prévisions globales") or lines[i].startswith("Partenariats") or lines[i].startswith("Commercialisation") or lines[i].startswith("23 000") or lines[i].startswith("Pics d'activité") or lines[i].startswith("Nicolas ROY") or lines[i].startswith("Freelances") or lines[i].startswith("Activité 100") or lines[i].startswith("Discrave centralise") or lines[i].startswith("L'offre événementielle") or lines[i].startswith("Discrave répond") or lines[i].startswith("Le marché français") or lines[i].startswith("Malgré cette") or lines[i].startswith("Discrave se positionne") or lines[i].startswith("L'offre Discrave") or lines[i].startswith("Bandsintown") or lines[i].startswith("Discrave est la seule") or lines[i].startswith("Le produit est déjà") or lines[i].startswith("Le modèle économique") or lines[i].startswith("Référencement") or lines[i].startswith("Communautés") or lines[i].startswith("Contenus") or lines[i].startswith("Programme d'apporteurs") or lines[i].startswith("Prospection") or lines[i].startswith("Partenariats billetterie") or lines[i].startswith("Lancement commercial") or lines[i].startswith("Activation du réseau") or lines[i].startswith("Participation à") or lines[i].startswith("Marge brute") or lines[i].startswith("Objectif 185") or lines[i].startswith("Estimation du CA") or lines[i].startswith("Objectif 15") or lines[i].startswith("Montant retenu") or lines[i].startswith("RGPD.") or lines[i].startswith("Social :") or lines[i].startswith("Economique :") or lines[i].startswith("Environnemental :") or lines[i].startswith("Activité exercée"):
+        if is_table_line(stripped):
+            rows: list[list[str]] = []
+            while i < len(lines):
+                current = lines[i].strip()
+                if not current or current == "---" or current in SECTION_TITLES or current in SUBSECTION_TITLES:
                     break
-                pdf.set_font("DejaVu", "", 8.5)
-                pdf.multi_cell(CONTENT_W, 4.8, lines[i])
+                if re.match(r"^Page \d+ / \d+$", current):
+                    break
+                if not is_table_line(current) and rows:
+                    break
+                if is_table_line(current):
+                    rows.append(split_table_row(current))
                 i += 1
-            pdf.ln(1)
+            table_html = ['<table class="data-table">']
+            for idx, row in enumerate(rows):
+                tag = "th" if idx == 0 else "td"
+                table_html.append(
+                    "<tr>" + "".join(f"<{tag}>{esc(cell)}</{tag}>" for cell in row) + "</tr>"
+                )
+            table_html.append("</table>")
+            parts.append("".join(table_html))
             continue
 
-        if ":" in line and not line.startswith("http") and len(line) < 120:
-            label, _, value = line.partition(":")
-            if label and (value or line.endswith(":")):
-                pdf.set_font("DejaVu", "B", 9.5)
-                pdf.write(5, f"{label}:")
-                pdf.set_font("DejaVu", "", 9.5)
-                pdf.write(5, f" {value}")
-                pdf.ln(5)
-                i += 1
-                continue
-
-        pdf.write_line(line)
+        parts.append(field_paragraph(stripped))
         i += 1
+
+    body = "\n".join(parts)
+    css = CSS_PATH.read_text(encoding="utf-8")
+    return f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Dossier IPA — DISCRAVE</title>
+  <style>{css}</style>
+</head>
+<body>
+{body}
+</body>
+</html>
+"""
+
+
+def build_css() -> None:
+    CSS_PATH.write_text(
+        """
+@page { size: A4; margin: 18mm 16mm 20mm 16mm; }
+* { box-sizing: border-box; }
+body {
+  font-family: "DejaVu Sans", Arial, sans-serif;
+  font-size: 10pt;
+  line-height: 1.45;
+  color: #1a1a1a;
+  margin: 0;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+h1 {
+  font-size: 13pt;
+  background: #1e3a5f;
+  color: #fff;
+  padding: 7px 10px;
+  margin: 16px 0 8px;
+  page-break-after: avoid;
+  word-wrap: break-word;
+}
+h2 {
+  font-size: 11pt;
+  color: #1e3a5f;
+  margin: 12px 0 6px;
+  page-break-after: avoid;
+  word-wrap: break-word;
+}
+p {
+  margin: 4px 0;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+ul {
+  margin: 6px 0 8px 18px;
+  padding: 0;
+}
+li {
+  margin-bottom: 3px;
+  word-wrap: break-word;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 14px 0;
+}
+.page-marker {
+  text-align: right;
+  font-size: 8pt;
+  color: #888;
+  margin: 10px 0 6px;
+}
+table.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 12px;
+  font-size: 8.5pt;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+table.data-table th,
+table.data-table td {
+  border: 1px solid #ccc;
+  padding: 4px 5px;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+table.data-table th {
+  background: #f0f4f8;
+  font-weight: bold;
+}
+""".strip()
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 def main() -> None:
+    build_css()
     content = MD_PATH.read_text(encoding="utf-8")
-    pdf = DossierPDF()
-    render_markdown(pdf, content)
-    pdf.output(str(PDF_PATH))
+    HTML_PATH.write_text(markdown_to_html(content), encoding="utf-8")
+
+    subprocess.run(
+        [
+            "wkhtmltopdf",
+            "--enable-local-file-access",
+            "--page-size",
+            "A4",
+            "--margin-top",
+            "15mm",
+            "--margin-bottom",
+            "15mm",
+            "--margin-left",
+            "15mm",
+            "--margin-right",
+            "15mm",
+            "--encoding",
+            "UTF-8",
+            str(HTML_PATH),
+            str(PDF_PATH),
+        ],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
     print(f"Generated {PDF_PATH} ({PDF_PATH.stat().st_size // 1024} KB)")
 
 
